@@ -1,0 +1,211 @@
+@font-face {
+     font-family: "open sans";
+     src: url("http://fonts.googleapis.com/css?family=Open+Sans");
+}
+ body {
+     max-width: 1080px;
+     min-width: 900px;
+     margin: auto;
+     font-family: "open sans";
+}
+ header {
+     background-image: url(/img/apples.jpg) ;
+     background-size: 100% 100%;
+     height: 600px;
+}
+ nav {
+     display: flex;
+     justify-content: space-around;
+     padding-top: 15px;
+     flex-wrap: wrap;
+}
+ nav a:first-child {
+     text-transform: uppercase;
+     margin-right: 450px;
+     margin-left: 10px;
+}
+ nav a {
+     text-decoration: none;
+     color: white;
+}
+ .label {
+     text-align: center;
+     margin-top: 180px;
+}
+ header h1{
+	 text-transform: uppercase;
+     color: #FFF;
+     font-size: 48px;
+	 font-weight: 100;
+	  letter-spacing: 5px;
+}
+header h1 span {
+	font-size: 90px;
+}
+ header h4{
+	 margin-top: -30px;
+     color: #FFF;
+     font-size: 12px;
+}
+ header button {
+	 margin-top: 100px;
+     color: #FFF;
+     border: 2px solid #FFF;
+     width: 200px;
+     height: 50px;
+     background-color:rgba(0, 0, 0, 0.5);
+}
+ .about {
+     padding: 80px 40px;
+     display: flex;
+}
+ .block-one{
+     align-self: flex-start;
+     font-size: 18px;
+}
+ .block-two{
+     align-self: flex-end;
+     font-size: 12px;
+     margin-left: 100px;
+}
+ .articles {
+     padding: 40px;
+     background-color: #F3F3F3;
+}
+.articles h2 {
+	margin-top: 100px;
+	margin-bottom: 60px;
+	text-align: center;
+	font-weight: 100;
+}
+.articles h2 span {
+	font-weight: bold;
+}
+ article {
+     display: flex;
+     justify-content: space-between;
+     margin: 10px;
+}
+
+ article img {
+     width: 560px;
+     float: left;
+	 position: relative;
+}
+.date {
+	position: absolute;
+	color: #FFF;
+	z-index: 1;
+	margin-left: 20px;
+	margin-top: 270px;
+	font-size: 14px;
+}
+.date span {
+	font-weight: bold;
+}
+.like {
+	position: absolute;
+	margin-top: 20px;
+	z-index: 1;
+	border: 2px solid #FFF;
+	margin-left: 470px;
+	color: #FFF;
+	width: 50px;
+	padding: 5px;
+	font-weight: bold;
+	background-color:rgba(48, 48, 48, .5);
+	text-align: center;
+}
+
+ .topic {
+     width: 400px;
+     color: #343638;
+     font-size: 16px;
+     text-align: center;
+     margin: auto;
+}
+ .toolbar {
+     padding: 30px;
+     display: flex;
+     justify-content: space-around;
+     background-color: #FFF;
+     margin-top: 40px;
+}
+input::placeholder {
+	color:#343638;
+}
+.toolbar input {
+	height: 40px;
+	width: 600px;
+}
+.toolbar-small input {
+	height: 30px;
+	width: 200px;
+	margin-left: -140px;
+}
+ .toolbar input, .toolbar-small input {
+     border-color: #343638;
+     padding-left: 10px;
+     background-color: #F3F3F3;
+}
+.toolbar .button-subscribe{
+	 width: 100px;
+}
+ .button-subscribe {
+	 padding: 10px;
+     background-color: #343638;
+     border:none;
+     color: #FFF;
+}
+ .search {
+     display: flex;
+}
+ .subscribe {
+     padding-top: 10px;
+}
+ .subscribe span {
+     font-weight: bold;
+}
+ .contact {
+     padding: 40px;
+     display: flex;
+     margin: 10px 0;
+     justify-content: space-between;
+     border-bottom: 1px solid #E8E8E8;
+     padding-bottom: 80px;
+}
+.contact div {
+	width: 300px;
+}
+ .contact p{
+     color: #9E9E9E;
+     font-size: 12px;
+}
+ .contact div:not(:last-child) {
+     margin-right: 10px;
+}
+ .contact div:last-child{
+     margin-left: 70px;
+}
+ .contact h3 {
+     color: #343638;
+}
+.contact .tweet {
+	font-style: italic;
+}
+.contact .time {
+	color: #B7C8D9;
+}
+ footer {
+     padding: 20px;
+     display: flex;
+     justify-content: space-between;
+}
+ .footer-nav a {
+     color: #343638;
+     padding: 10px;
+     text-decoration: none;
+}
+.footer-info {
+	color: #9E9E9E;
+}
